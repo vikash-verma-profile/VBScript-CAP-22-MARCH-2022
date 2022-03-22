@@ -10,3 +10,64 @@ features in vbscript
 --lightweight lanaguage
 --c# that was a OOPS based 
 --Vbscript is a procedural based language
+--interpreater
+
+Data type
+
+Numberic value should be enclosed with single quotes(')
+String Value should be enclosed with double quotes("")
+Date and Time Variables should be enclosed with Hash symbol(#)
+
+strvalue="asdsd" ==>string 
+Number1=20' ==.Number1
+Dtoday=#01/03/2022#
+
+Time1=#11:37:24 PM#
+
+
+Scope of variables
+
+1.Dim
+2.Public
+3.Private
+
+1.In out of function/class code DIm,public and private are equivalent.All declaration is going to apply to global scope
+
+2.In function/Methods you can use DIm only.The declaration is going to apply to Func/Method-local scope
+3.In a class definations, Dim and public declare variables that can be accessed for out-of class code;
+private create variables that can be accessed from the class-code only.
+private methods are callable from class-code only
+public methods(default) can be called from outer space
+
+private created variables that can be accessed from class-code only
+
+
+constants
+const
+
+operators
+1.arithmatic operators  +,-,*,/,%,^
+2.Comparison operators  ==,<>,>,<,>=,<=
+3.Logical or Relational operators  AND,OR,NOT,XOR (its is combination of NOT and OR operator)
+4.Concatenation operators (& ,+)
+
+Decision making statements
+
+if statements
+if else statements
+if else if else statements
+nested if
+switch statements
+
+
+events
+
+onclick
+onsubmit
+onreset
+onblur
+onkeydown
+
+Type conversion
+Cint==>integer
+CLng==>long integer

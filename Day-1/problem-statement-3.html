@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+</head>
+<body>
+    <form id="sample">
+        Number<input name="txt" type="text" /><br/>
+        <input type="button"  onclick="submit12()" value="PrintNumber" />
+    </form>
+</body>
+</html>
+<script language="vbscript" type="text/vbscript">
+ Function submit12()
+    Dim SampleForm,Sum,Number1,Number2
+    Set SampleForm=document.forms("sample")
+ 
+    If (SampleForm.txt.Value mod 2 = 0 )Then
+         MsgBox SampleForm.txt.Value & " Even Number"   
+    Else
+      MsgBox "Not odd number"
+End If    
+End Function
+</script>
