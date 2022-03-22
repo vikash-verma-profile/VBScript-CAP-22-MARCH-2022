@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+</head>
+
+<body>
+    <form id="sample">
+        Number 1<input name="txt1" type="text" /><br/>
+        Number 2<input name="txt2" type="text" /><br/>
+        <input type="button" onclick="show()" value="PrintNumber" />
+    </form>
+</body>
+
+</html>
+<script language="vbscript" type="text/vbscript">
+Function show()
+'define which form in the document you want to access
+Dim SampleForm,Sum,Number1,Number2
+Set SampleForm=document.forms("sample")
+If IsNumeric(SampleForm.txt1.Value) AND IsNumeric(SampleForm.txt2.Value) Then
+    Number1=Cint(SampleForm.txt1.Value)
+    Number2=Cint(SampleForm.txt2.Value)
+    Sum=Number1+Number2
+    MsgBox Sum
+Else
+MsgBox "This is a not a numeric value"
+End If
+End Function
+</script>
