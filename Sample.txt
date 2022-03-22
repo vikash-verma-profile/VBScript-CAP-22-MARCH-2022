@@ -1,0 +1,12 @@
+VB Script
+
+Visual basic SCript
+
+--either you can embedded this into html web page
+--server side scripting
+
+features in vbscript
+
+--lightweight lanaguage
+--c# that was a OOPS based 
+--Vbscript is a procedural based language
