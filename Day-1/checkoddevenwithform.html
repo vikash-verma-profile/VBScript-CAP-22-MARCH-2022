@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+</head>
+
+<body>
+    <form id="OddEvenForm">
+        Number 1<input name="Number1" type="text" /><br/>
+        <input type="button" onclick="CheckOddEven()" value="CheckOddEven" />
+    </form>
+</body>
+<script language="vbscript" type="text/vbscript">
+Function CheckOddEven()
+Dim OddEvenForm
+set OddEvenForm=document.forms("OddEvenForm")
+If OddEvenForm.Number1.Value MOD 2 = 0 Then
+    MsgBox OddEvenForm.Number1.Value & " is even"
+Else
+    MsgBox OddEvenForm.Number1.Value & " is Odd"
+End If
+End Function
+</script>
