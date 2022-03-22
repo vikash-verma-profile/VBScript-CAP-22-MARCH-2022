@@ -1,0 +1,28 @@
+<html>
+    
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+</head>
+<script language="vbscript" type="text/vbscript">
+'global vs local
+Option Explicit
+Class sample
+Private Var3
+End Class
+Dim Var1
+Dim Var2
+
+
+call add()
+    Function add()
+        Var1=10
+        Var2=15
+        Var3=Var1+Var2
+        MsgBox Var3
+    End Function
+
+    MsgBox Var1
+    MsgBox Var2
+    MsgBox Var3
+    </script>
+</html>
