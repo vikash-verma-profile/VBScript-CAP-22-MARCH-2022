@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <title>String Functions</title>
+</head>
+<body>
+    <form id="userform">
+    </form>
+
+<script language="vbscript" type="text/vbscript">
+
+sample="My name is Vikash"
+sample2="My name is Vikash My"
+document.write("<br/> InStr <br/>")'return the position of first occurence from starting
+document.write(InStr(sample2,"My") & "<br/>")
+
+document.write("<br/> InStrRev <br/>")'
+document.write(InStrRev(sample2,"My") & "<br/>")'return the position of first occurence from last or reverse
+
+
+
+document.write("<br/> Lcase <br/>")'
+document.write(Lcase("Vikash") & "<br/>")
+
+document.write("<br/> Ucase <br/>")'
+document.write(Ucase("Vikash") & "<br/>")
+
+document.write("<br/> Left <br/>")'
+document.write(Left("Sample",3) & "<br/>")
+
+document.write("<br/> Right <br/>")'
+document.write(Right("Sample",3) & "<br/>")
+
+document.write("<br/> LTrim <br/>")
+document.write("HI" & "   Sample" & "<br/>")
+document.write("HI" & LTrim("  Sample") & "<br/>")
+
+document.write("<br/> RTrim <br/>")
+document.write("Sample    " & "HI" & "<br/>")
+document.write( RTrim("Sample     ")  & "HI" & "<br/>")
+
+document.write("<br/> Trim <br/>")
+document.write("HI" &  "    Sample    " & "HI" & "<br/>")
+document.write("HI" &  Trim("     Sample     ")  & "HI" & "<br/>")
+
+document.write("<br/> Replace <br/>")
+document.write(Replace("Sample today and tomorrow","today","tomorrow")  & "HI" & "<br/>")
+</script>
+
