@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <title>Switch</title>
+</head>
+<body>
+    <form id="userform" onsubmit="false">
+        Number 1 <input type="number" name="v1" value="0"> <br>
+        Number 2 <input type="number" name="v2" value="0"> <br>
+        Operation <input type="text" name="eq_option" value="1">
+        <input type="button" onclick="calculate()" value="Calcuate">
+    </form>
+
+
+
+<script language="vbscript" type="text/vbscript">
+
+Function calculate()
+    Dim v1, v2, result, eq_option
+    Dim userforms
+    Set userforms = document.forms("userform")
+    If IsNumeric(userform.v1.Value) AND IsNumeric(userform.v2.Value) Then
+        v1 = cint(userform.v1.Value)
+        v2 = cint(userform.v2.Value)
+        eq_option = cint(userform.eq_option.Value)
+        Select case eq_option
+            case 1
+                result = v1 + v2
+            case 2
+                result = v1 - v2
+            case 3
+                result = v1 * v2
+            case 4
+                result = v1 / v2
+            case else
+                result = 0
+        End Select
+        document.write("Result is " & result)
+    End If
+End Function
+
+</script>
+</body>
+
+</html>
