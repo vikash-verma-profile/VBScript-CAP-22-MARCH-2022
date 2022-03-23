@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <title>MultiDimesional array</title>
+</head>
+<body>
+    <form id="userform">
+    </form>
+
+<script language="vbscript" type="text/vbscript">
+dim a(1) '1 d
+dim a(1,1) '2 d
+
+For row=0 to 1
+    For col=0 to 1
+        a(row,col)=col+1  'assignment is done here
+    Next
+Next
+
+'printing the array or matrix on screen
+For row=0 to 1
+    For col=0 to 1
+        document.write "&nbsp;&nbsp;&nbsp;"
+        document.write a(row,col)
+    Next
+    document.write "<br/>"
+Next
+</script>

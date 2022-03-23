@@ -161,3 +161,34 @@ FormatDateTime
 Hour
 IsDate
 Minute
+
+Abs==>absolute value Abs(number)
+Exp==>x to prower    exp(number)
+Int==>return integer part of a number Int(number)
+Log
+Rnd-random function
+Sgn==> sign function
+Sqr==>square root
+
+InStr
+InStrRev
+LCase
+Left
+Len
+Ltrim
+Rtrim
+Trim
+Mid
+Replace
+UCase
+
+dynamic array
+
+ReDim [preserve] varname(subscript)[,varname(subscript)]
+
+preserve-optional parameter used to preserve the data in an existing array when you change the size of the 
+last dimension
+varname-a required parameter which denotes the name of variable
+subscript-size of array
+
+
