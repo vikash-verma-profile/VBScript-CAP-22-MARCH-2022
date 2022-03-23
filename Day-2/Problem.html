@@ -10,6 +10,7 @@
         Number 2 <input type="number" name="v2" value="0"> <br>
         Operation <input type="text" name="eq_option" value="1">
         <input type="button" onclick="calculate()" value="Calcuate">
+        <label id="message"></label>
     </form>
 
 
@@ -36,7 +37,8 @@ Function calculate()
             case else
                 result = 0
         End Select
-        document.write("Result is " & result)
+        'document.write("Result is " & result)
+        document.getElementById("message").innerHtml=result
     End If
 End Function
 
