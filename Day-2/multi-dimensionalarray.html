@@ -9,18 +9,18 @@
     </form>
 
 <script language="vbscript" type="text/vbscript">
-dim a(1) '1 d
+'dim a(1) '1 d
 dim a(1,1) '2 d
 
-For row=0 to 1
-    For col=0 to 1
+For row=0 to ubound(a)
+    For col=0 to ubound(a)
         a(row,col)=col+1  'assignment is done here
     Next
 Next
 
 'printing the array or matrix on screen
-For row=0 to 1
-    For col=0 to 1
+For row=0 to ubound(a)
+    For col=0 to ubound(a)
         document.write "&nbsp;&nbsp;&nbsp;"
         document.write a(row,col)
     Next
