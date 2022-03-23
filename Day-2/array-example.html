@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <title>For Next Loop</title>
+</head>
+<body>
+    <form id="userform">
+    </form>
+
+<script language="vbscript" type="text/vbscript">
+'Dim arry1()  'without sizi
+
+'Dim arr2(5) ' with size
+
+'arr3=Array("apple","Orange","Grapes")
+
+Dim arr(5)
+arr(0)="vbscript"
+arr(1)=100
+arr(2)=2.46
+arr(3)=#10/03/2022#
+arr(4)=#12.45 PM#
+arr(5)="Last"
+
+For each ele in arr
+    document.write ele
+    document.write "<br/>"
+Next
+</script>
