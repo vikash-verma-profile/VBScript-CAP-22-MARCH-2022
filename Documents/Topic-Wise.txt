@@ -59,6 +59,14 @@ if else if else statements
 nested if
 switch statements
 
+select case <variable-name>
+	case <case-number>
+		'logic part
+	case <case-number>
+		'logic part
+	case else
+		'logic part
+End select
 
 events
 
