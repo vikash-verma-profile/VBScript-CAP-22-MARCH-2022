@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <title>Dynamic array</title>
+</head>
+<body>
+    <form id="userform">
+    </form>
+
+<script language="vbscript" type="text/vbscript">
+Dim a()
+i=0
+redim a(5)
+a(0)="XYZ"
+a(1)=41.25
+a(2)=22
+
+redim preserve a(7)
+For i=3 to 7
+a(i)=i
+Next
+
+For i=0 to ubound(a)
+document.write a(i) & "<br/>"
+Next
+</script>
