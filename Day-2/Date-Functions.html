@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <meta http-equiv="x-ua-compatible" content="IE=10">
-    <title>For Next Loop</title>
+    <title>Date Functions</title>
 </head>
 <body>
     <form id="userform">
@@ -16,4 +16,44 @@ document.write("<br/>")
 document.write(Date) 
 document.write("====>")
 document.write(DateAdd("q",2,"23-03-2022"))  'DateAdd(interval,number,date)
+fromdate="31-Jan-2022 00:00:00"
+todate="31-Jan-2023 23:59:00"
+document.write("<br/>")
+document.write(DateDiff("yyyy",fromdate,todate))   'DateDiff(interval,date1,date2)
+
+document.write("<br/>")
+
+document.write(Day("2022-03-23")) 'Day(date)'
+
+document.write("<br/>")
+d=CDate("2022-03-23 10:24")
+
+document.write(d)
+document.write("<br/>")
+document.write(FormatDateTime(d)) 'FormatDateTime(date,format)
+document.write("<br/>  format 1 ==>  ")
+document.write(FormatDateTime(d,1))
+document.write("<br/>  format 2 ==>  ")
+document.write(FormatDateTime(d,2))
+document.write("<br/>  format 3 ==>  ")
+document.write(FormatDateTime(d,3))
+document.write("<br/>  format 4 ==>  ")
+document.write(FormatDateTime(d,4))
+
+document.write("<br/>  Hour Function ==>  ")
+document.write(Hour("13:45"))
+
+document.write("<br/>  Minute Function ==>  ")
+document.write(Minute("13:45"))
+
+document.write("<br/>  Month Function ==>  ")
+document.write(Month("2022-03-23"))
+
+document.write("<br/>  Month Name Function ==>  ")
+document.write(MonthName("03"))
+
+
+document.write("<br/>  Current date Function ==>  ")
+document.write(Now)
 </script>
+

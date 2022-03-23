@@ -68,6 +68,14 @@ select case <variable-name>
 		'logic part
 End select
 
+create a program to perform all the arithmatic operations and take choice from user what he want to do
+
+Create a program to print all the week days after user enter the choice
+choice will be 
+1==>monday
+2==>Tuesday
+3==>wednesday
+
 events
 
 onclick
@@ -79,3 +87,77 @@ onkeydown
 Type conversion
 Cint==>integer
 CLng==>long integer
+
+
+Loops
+
+1.Do while Loop
+2.Do Until Loop
+3.While...Wend Loop
+4.For Next
+5.For-Step Next
+6.For Each Next
+
+
+Do While <expression> //here we are checking the condition to be true for running the loop
+	//Logical
+	
+Loop
+
+Do Until <expression>//here we are checking the condition to be false for running the loop
+	//Logical
+	
+Loop
+
+
+While <expression>//here we are checking the condition to be false for running the loop
+	//Logical
+	
+Wend
+
+For <expression>
+
+
+Next
+
+write a program to check number from 1-10 which are prime numbers
+
+
+For <range or expression> Step <value>
+	//Code
+Next
+
+
+
+write a program to print all odd and even number from 1-10
+
+
+
+Array
+
+
+Build In functions 
+1.Date/Time function
+2.Math Functions
+3.Strig Functions
+4.Format functions
+5.Conversion functions
+
+Date
+DateAdd
+yyyy-year
+q-quarter
+m-month
+y-date of year
+w-weekday
+ww- week of year
+h-Hour
+n-Minute
+s-Second
+
+DateDiff
+Day
+FormatDateTime
+Hour
+IsDate
+Minute
