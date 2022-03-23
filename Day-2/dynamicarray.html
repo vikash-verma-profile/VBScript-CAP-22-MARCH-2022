@@ -9,12 +9,13 @@
     </form>
 
 <script language="vbscript" type="text/vbscript">
-Dim a()
+Dim a
 i=0
-redim a(5)
-a(0)="XYZ"
-a(1)=41.25
-a(2)=22
+a=Array("apple","Orange","Grapes")
+redim preserve a(5)
+'a(0)="XYZ"
+'a(1)=41.25
+'a(2)=22
 
 redim preserve a(7)
 For i=3 to 7
