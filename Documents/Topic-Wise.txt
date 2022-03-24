@@ -193,4 +193,13 @@ subscript-size of array
 
 Procedures
 
+Functions
+Sub Procedures
+	-do not return a value like a function
+	-This can be called without using call keyword
+	-Sub and end with End sub
+
+passing a parameter into a procedure
+	-ByVal=> the argument are set as byval then any change happens in the function to those arguments will not show any effect in the source
+	-ByRef=>the argument are set as byval then any change happens in the function to those arguments then the same change will show in the source
 
