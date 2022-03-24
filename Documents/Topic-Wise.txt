@@ -225,3 +225,11 @@ Return values
 7-vbNo
 
 InputBox(prompt,[title],[default],[xpos],[ypos],helpfile,context)
+
+
+Dictionary
+
+key value
+add(key,value)
+Exits(key)
+Items
