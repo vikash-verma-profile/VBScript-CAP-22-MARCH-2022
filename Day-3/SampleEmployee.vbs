@@ -1,5 +1,6 @@
 Set EmployeeData=CreateObject("Scripting.Dictionary")
-EmployeeData.Add "101","Vikash Verma : 40 : Male"
+Id=101'
+EmployeeData.Add (Id,"Vikash Verma : 40 : Male")
 EmployeeData.Add "102","Sumit Kumar : 21 : Male"
 EmployeeData.Add "103","Raj Kumar : 22 : Male"
 
