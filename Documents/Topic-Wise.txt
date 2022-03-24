@@ -202,4 +202,26 @@ Sub Procedures
 passing a parameter into a procedure
 	-ByVal=> the argument are set as byval then any change happens in the function to those arguments will not show any effect in the source
 	-ByRef=>the argument are set as byval then any change happens in the function to those arguments then the same change will show in the source
+	
+==Dialog Box
 
+Msgbox(prompt,[buttons],[title],helpfile,context)
+
+0 vbOkonly 
+1 vbOkCancel
+2 vbAbortRetryIgnore
+3 vbYesNOCancel
+4
+5
+
+Return values
+
+1-Vbok 
+2-VBcancel
+3-vbAbortRetryIgnore
+4-vbRetry
+5-vbIgnore
+6-Vbyes
+7-vbNo
+
+InputBox(prompt,[title],[default],[xpos],[ypos],helpfile,context)
